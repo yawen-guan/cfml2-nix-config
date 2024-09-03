@@ -18,6 +18,11 @@ A development environment featuring:
 - **Customizable**: Easily adapt the environment to suit your specific needs and preferences.
 - **Seamless Integration**: Uses [direnv](https://direnv.net/) to automatically load environment settings when you enter the project directory, simplifying setup and workflow.
   
+## Why Nix and Nix Flakes? 
+
+Nix is a powerful package manager and build system that enables declarative configuration. 
+Nix Flakes is a feature of Nix which allow users to declare and lock dependencies in a way that composes nicely with other flakes. 
+  
 ## Getting started 
 
 ### Install Nix and enable Nix Flakes
@@ -25,7 +30,6 @@ A development environment featuring:
 Nix Installation: https://nixos.org/download/
 
 Enable Nix Flakes: https://nixos.wiki/wiki/Flakes
-
 
 ### Option 1. Without direnv 
 
@@ -59,7 +63,11 @@ This initial setup may take some time as it installs all required dependencies.
 
 #### It's Done!
 
-From this point on, each time you enter the project directory, the environment settings is automatically loaded! 
+From this point on, each time you enter the project directory, the environment settings will be automatically loaded.
+
+![demo](./assets/demo.png)
+
+
 
 
 
