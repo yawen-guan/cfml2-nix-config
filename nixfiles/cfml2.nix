@@ -14,7 +14,6 @@ mkCoqDerivation {
     rev = "d68b6a2ea489e0ea240279f644f9943a7b7462ab";
     submodules = true;
   };
-  # src = ~/Repos/cfml2;
   buildInputs = [ bash ];
   propagatedBuildInputs = [ ocaml tlc dune findlib pprint menhir ];
 

@@ -67,7 +67,14 @@ From this point on, each time you enter the project directory, the environment s
 
 ![demo](./assets/demo.png)
 
+## Advanced Usage 
 
+### Use a local cfml2 repo 
 
+1. In `nixfiles/cfml2.nix`, replace the `src` attribute config with:
+```
+src = [path to the local cfml2 repo];
+```
+2. In `.envrc`, replace `use flake` with `use flake --impure`. 
 
 
